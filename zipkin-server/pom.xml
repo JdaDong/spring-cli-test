@@ -46,10 +46,6 @@
 			</exclusions>
 		</dependency>
 
-		<dependency>
-			<groupId>io.zipkin</groupId>
-			<artifactId></artifactId>
-		</dependency>
 
 		<dependency>
 			<groupId>io.zipkin</groupId>
