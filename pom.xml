@@ -22,6 +22,7 @@
         <commons-lang3.version>3.9</commons-lang3.version>
         <commons-codec.version>1.13</commons-codec.version>
         <jjwt.version>0.9.1</jjwt.version>
+        <spring-restdocs.version>2.0.5.RELEASE</spring-restdocs.version>
     </properties>
 
     <modules>
@@ -128,6 +129,12 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>${jjwt.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.restdocs</groupId>
+            <artifactId>spring-restdocs-mockmvc</artifactId>
+            <version>${spring-restdocs.version}</version>
         </dependency>
 
     </dependencies>
