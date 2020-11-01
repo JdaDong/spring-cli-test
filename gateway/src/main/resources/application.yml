@@ -1,3 +1,4 @@
 server.port=8090
 spring.application.name=gateway
-spring.zipkin.
+spring.cloud.gateway.default-filters=true
+
